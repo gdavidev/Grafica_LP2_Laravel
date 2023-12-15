@@ -26,7 +26,7 @@
 
         <div class="col-lg-8">
           <div class="portfolio-details-slider swiper">
-            <div class="swiper-wrapper align-items-center">
+            <div class="lign-items-center">
 
               <div class="swiper-slide">
                 <img src="/img/products/{{ $product->image }}" alt="{{ $product->nome }}">

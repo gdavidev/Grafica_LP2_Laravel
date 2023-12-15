@@ -11,7 +11,7 @@
         @method('PUT')
         <div class="form-group mb-2">
             <label for="image">Imagem do Produto:</label>
-            <input type="file" class="form-control" id="image" name="image" required>
+            <input type="file" class="form-control" id="image" name="image">
             <img class="w-25" src="/img/products/{{ $product->image }}" alt="{{ $product->nome }}">
         </div>
         <div class="form-group mb-2">
@@ -28,7 +28,7 @@
         </div>
         <div class="form-group mb-2">
             <label for="preco">Preço:</label>
-            <input type="number" class="form-control" id="preco" name="preco" placeholder="Categoria" value="{{ $product->preco }}" required>
+            <input type="number" step="0.01" class="form-control" id="preco" name="preco" placeholder="Categoria" value="{{ $product->preco }}" required>
         </div>
 
         <input type="submit" class="btn btn-primary" value="Atualizar Produto">

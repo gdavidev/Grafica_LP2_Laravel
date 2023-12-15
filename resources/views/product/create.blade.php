@@ -26,7 +26,7 @@
         </div>
         <div class="form-group mb-2">
             <label for="preco">Preço:</label>
-            <input type="number" class="form-control" id="preco" name="preco" placeholder="Categoria" required>
+            <input type="number" step="0.01" class="form-control" id="preco" name="preco" placeholder="Categoria" required>
         </div>
 
         <input type="submit" class="btn btn-primary" value="Criar Produto">
